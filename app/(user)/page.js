@@ -27,9 +27,9 @@ const HomePage = () => {
 
       {/* --- Hero Section: Fokus Keberkahan --- */}
       <section className="relative pt-16 pb-24 bg-[radial-gradient(at_top_left,var(--tw-gradient-stops))] from-emerald-50 via-white to-white overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="lg:flex items-center justify-center gap-16">
-            <div className="lg:w-1/2 text-center lg:text-left">
+            <div className="lg:w-2/3 text-center lg:text-left">
               <h1 className="text-5xl lg:text-7xl font-black text-emerald-950 mb-8 leading-[1.05] tracking-tight">
                 Mengejar Makbul, <br />
                 <span className="text-emerald-600 italic">Menjaga Sunnah.</span>
@@ -49,7 +49,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="lg:w-1/2 mt-20 lg:mt-0 relative group">
+            <div className="lg:w-1/3 mt-20 lg:mt-0 relative group">
               <div className="absolute -inset-10 bg-emerald-200/20 rounded-full blur-3xl opacity-50" />
               <div className="relative rounded-[60px] overflow-hidden border-16 border-white shadow-2xl shadow-emerald-100/50 transform lg:-rotate-2 group-hover:rotate-0 transition-all duration-700">
                 <img

@@ -40,11 +40,8 @@ const HomePage = () => {
                 fikih ibadah di Tanah Suci.
               </p>
               <div className="flex flex-col sm:flex-row items-center gap-5 justify-center lg:justify-start">
-                <button className="w-full sm:w-auto bg-emerald-700 hover:bg-emerald-800 text-white px-12 py-6 rounded-4xl font-black text-xl shadow-2xl shadow-emerald-200 flex items-center justify-center gap-4 transition-all hover:-translate-y-1 active:scale-95">
+                <button className="w-full sm:w-auto cursor-pointer bg-emerald-700 hover:bg-emerald-800 text-white px-12 py-6 rounded-4xl font-black text-xl shadow-2xl shadow-emerald-200 flex items-center justify-center gap-4 transition-all hover:-translate-y-1 active:scale-95">
                   Lihat Paket 1447H <FaArrowRight />
-                </button>
-                <button className="w-full sm:w-auto bg-white border-2 border-emerald-100 text-emerald-800 px-10 py-6 rounded-4xl font-black text-xl hover:bg-emerald-50 transition active:scale-95">
-                  Manasik Gratis
                 </button>
               </div>
             </div>
@@ -55,7 +52,7 @@ const HomePage = () => {
                 <img
                   src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?q=80&w=2070&auto=format&fit=crop"
                   alt="Ibadah Sunnah Makkah"
-                  className="w-full h-150 object-cover"
+                  className="w-full h-96 object-cover"
                 />
                 <div className="absolute top-10 right-10 bg-white/90 backdrop-blur px-6 py-4 rounded-3xl shadow-xl">
                   <p className="text-emerald-800 font-black text-xl">

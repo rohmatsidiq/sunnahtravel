@@ -72,7 +72,7 @@ export default function DashboardPage() {
             <p className="text-[10px] uppercase font-black text-slate-400 leading-none">
               Hari Ini
             </p>
-            <p className="text-sm font-bold text-slate-700">14 Mei 2026</p>
+            <p className="text-sm font-bold text-slate-700">16 Mei 2026</p>
           </div>
         </div>
       </div>
